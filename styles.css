@@ -1,0 +1,67 @@
+:root{
+
+    /*primary colors*/
+     --Very-Dark-Blue: hsl(243, 87%, 12%);
+     --Desaturated-Blue: hsl(238, 22%, 44%);
+
+    /*Accent colors*/
+
+     --Bright-Blue: hsl(224, 93%, 58%);
+    --Moderate-Cyan: hsl(170, 45%, 43%);
+
+
+    /*Neutral colors*/
+
+    --Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --Light-Gray: hsl(0, 0%, 75%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    padding: 40px;
+
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+   
+    list-style: none;
+}
+
+.nav-link{
+    color: var(--Very-Dark-Blue);
+    font-family: 'Open Sans', sans-serif;
+
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.illustration1{
+    width: 300px;
+    height: 300px;
+
+    padding-right: 80px;
+}
